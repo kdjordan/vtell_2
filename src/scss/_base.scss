@@ -1,0 +1,23 @@
+
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+    background-color: $black-background-color;
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 895px;
+    height: auto;
+    margin: 0 auto;
+}

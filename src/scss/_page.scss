@@ -1,0 +1,27 @@
+.page {
+    margin-top: 8rem;
+    min-height: 100%;
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        background: #6e6e6e;
+        padding: 15px;
+        cursor: pointer;
+
+        &--title {
+          color: white;
+          font-size: 25px;
+          line-height: 35px;
+          transition: all .4s;
+        }
+    
+        &--cube {
+          transition: all .4s;
+        }
+
+        &:hover &--title, &:hover &--cube {
+          filter: opacity(50%);
+        }
+    }
+  }
